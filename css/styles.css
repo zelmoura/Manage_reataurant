@@ -1,0 +1,225 @@
+@font-face {
+    font-family: IndieFlower-Regular;
+    src: url('../fonts/IndieFlower-Regular.ttf');
+}
+@font-face {
+    font-family: GreatVibes-Regular;
+    src: url('../fonts/GreatVibes-Regular.ttf');
+}
+@font-face {
+    font-family: MateSC-Regular;
+    src: url('../fonts/MateSC-Regular.ttf');
+}
+*{
+    box-sizing: border-box;
+    transition: ease all .3s;
+    user-select: none;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body {
+   background-color: #fff;
+}
+.site {
+    font-family: 'MateSC-Regular', sans-serif;
+    font-weight: bolder;
+}
+.icons {
+    display: flex;
+}
+.icon-d  {
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.icon-d:hover{
+    color: #e7480f;
+}
+.text{
+    text-align: left;
+    position:absolute;
+    top:30vh;
+    left:5vw;
+    animation:fadeInLeft;
+    animation-duration : 2s;
+}
+.text-logo {
+    font-family: 'GreatVibes-Regular', sans-serif;
+    color: #fff;
+    font-size: 6vw;
+}
+.text-logo .glyphicon {
+    color: #ffd301;
+}
+.text-desc {
+    font-size: 2vw;
+    font-family: 'MateSC-Regular' , serif;
+    font-weight: bolder;
+}
+.nav {
+   margin-bottom: 40px;
+}
+.first-page {
+    height:100vh;
+    width:100vw;
+    z-index: 999;
+    position: absolute;
+    top:0;
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    
+}
+.first-page-background {
+    height:100vh;
+    width:100vw;
+    z-index: -1;
+    background-color: #2d86b6;
+}
+.bg {
+    width:100%;
+    height:100%;
+}
+.order-first-page-background {
+    height:100vh;
+    width:100vw;
+    z-index: -1;
+    background-color: #2d86b6;
+}
+.order-bg {
+    width:100%;
+    height:100%;
+}
+.order-container{
+    z-index: 999;
+    position: absolute;
+    top:0;
+}
+.second-page {
+    padding-top: 5vh;
+    animation:fadeInUp;
+    animation-duration : 2s;
+    animation-delay: 2s;
+}
+.thumbnail img {
+    background: #ffd301;
+}
+.price {
+    background: #2d86b6;
+    box-shadow: 0 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px rgba(0,0,0,0.2);
+    color: #fff;
+    text-shadow: 2px 2px #333;
+    position: absolute;
+    right: 6px;
+    top: 20px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.caption > h4 {
+    color: #e7480f;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background: #e7480f;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    color: #e7480f;
+    background-color: #eee;
+}
+.nav>li>a {
+    color: #2d86b6;
+    font-size: 18px;
+}
+.btn-order {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e7480f;
+    text-decoration: none;
+    text-shadow: 2px 2px #333;
+}
+.btn-order:hover, .btn-order:focus {
+    color: #fff;
+    background-color: #c13c0d;
+}
+
+/*  ADMIN */
+.admin-panel-body{
+    background: #2d86b6;
+}
+.admin-panel-title{
+    color: #fff;
+}
+.admin {
+    padding: 30px;
+    border-radius: 10px;
+    font-family: 'MateSC-Regular', sans-serif;
+    font-weight: bolder;
+}
+.table{
+    background: #fff;
+}
+.help-inline {
+    color: red;
+}
+.order-panel-body{
+    background: #ffd301;
+}
+.order-title{
+    color:#ffd301;
+}
+.order-input , .order-textarea{
+    width:30vw;
+    margin: 1%;
+    padding-left: 5px;
+    border:none;
+}
+.order-input{
+    height:5vh;
+}
+
+.pull-right{
+    margin: 2px;
+    margin-top: 10px;
+}
+.erreur-container{
+    position: absolute;
+    top:2vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.erreur{    
+    background-color: red;
+    color:#fff;
+    min-width: 6vw;
+    max-width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    height:30px;
+    animation:slideInDown;
+    animation-duration : 1s;
+}
+.success{
+    animation:slideInDown;
+    animation-duration : 1s;
+    display: flex;
+    flex-direction: row;
+}
+.txt{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+
