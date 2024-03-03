@@ -1,1 +1,2 @@
-#install wamp seerver 
+Ce repo GitHub contient une application web de gestion de restaurant en HTML, CSS, JavaScript et PHP en backend. Il offre une interface utilisateur intuitive pour gérer les réservations de tables, les menus, les commandes et les paiements. L'application permet également de générer des rapports et d'analyser les données pour aider les propriétaires à prendre des décisions éclairées. Le code est bien structuré et commenté pour faciliter la compréhension et la maintenance. C'est un outil complet pour les propriétaires de restaurants souhaitant optimiser leurs opérations.
+
